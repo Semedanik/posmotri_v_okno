@@ -150,8 +150,6 @@ ol {
   overflow-y: auto;
 }
 
-
-
 .result {
   width: 62%;
   display: flex;
@@ -212,10 +210,6 @@ ol {
   hyphens: auto;
 }
 
-/* .content__list::-webkit-scrollbar {
-  width: 0;
-} */
-
 .search-form__textfield {
   width: 225px;
   box-sizing: border-box;
@@ -273,9 +267,9 @@ ol {
   border: 1px solid rgb(255, 255, 255);
 }
 
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-} 
+}
 
 .search-form__label:not(:first-child) {
   margin-top: 5px;
@@ -290,10 +284,6 @@ ol {
   border: 1px solid var(--white);
 }
 
-
-
-
-
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
   width: calc(100% - 2px);
@@ -306,17 +296,11 @@ ol {
   height: 34px;
 }
 
-.search-form__submit-button {
-
-}
-
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
-/* шрифты */
 
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", "Arial", sans-serif;
@@ -349,7 +333,5 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: rgb(84, 80, 80);;
+  background-color: rgb(84, 80, 80);
 }
-
-
